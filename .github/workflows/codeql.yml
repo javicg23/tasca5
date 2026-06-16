@@ -32,7 +32,7 @@ jobs:
         uses: github/codeql-action/init@v4
         with:
           languages: java-kotlin
-          build-mode: none
+          build-mode: manual
 
       - name: Make Gradle executable
         run: chmod +x gradlew
