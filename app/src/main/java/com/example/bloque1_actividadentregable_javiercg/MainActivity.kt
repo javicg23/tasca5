@@ -44,7 +44,7 @@ fun funMessage(input: Any):String {
         } else {
             "Parece que el termómetro se ha estropeado, marca $input ºC"
         }
-        is String -> "Ha llegado un mensaje: $input"
+        is String -> "Ha llegado un mensaje nuevo: $input"
         is Boolean -> "$input es lo contrario de " + !input
         else -> {"El tipo no coincide"}
     }
