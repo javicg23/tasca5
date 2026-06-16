@@ -40,7 +40,7 @@ fun funMessage(input: Any):String {
     var result = when(input) {
         is Int -> "Bienvenido, jugador nº: $input"
         is Float -> if (input > -20.0f && input < 50.0f) {
-            "La temperatura hoy es de $input ºC"
+            "La temperatura es de $input ºC"
         } else {
             "Parece que el termómetro se ha estropeado, marca $input ºC"
         }
